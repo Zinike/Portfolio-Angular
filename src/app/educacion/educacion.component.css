@@ -1,0 +1,23 @@
+.educacion {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.educacion h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.educacion p {
+  margin: 0;
+}
+
+.educaciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}

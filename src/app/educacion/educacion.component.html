@@ -1,1 +1,11 @@
-<p>educacion works!</p>
+<div class="educaciones">
+  <h2>Mi Formación</h2>
+  <div *ngFor="let educacion of educaciones">
+    <div class="educacion">
+      <h3>{{ educacion.titulo }}</h3>
+      <p>{{ educacion.institucion }}</p>
+      <p>{{ educacion.fecha }}</p>
+      <p>{{ educacion.descripcion }}</p>
+    </div>
+  </div>
+</div>
