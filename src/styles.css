@@ -1,11 +1,16 @@
-body {
-  margin-left: 20%;
-  margin-right: 20%;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Code", monospace;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 50vh;
+section {
+  padding-top: 10%;
+  margin: 0 10%;
 }

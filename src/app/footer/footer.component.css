@@ -1,0 +1,28 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Cambio a columna */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container p {
+  display: block; /* Cambio a bloque */
+  margin: 5px 0; /* Margen entre los párrafos */
+}
+
+.heart {
+  color: red;
+}
