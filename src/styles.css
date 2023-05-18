@@ -20,6 +20,25 @@ h6 {
 }
 
 section {
-  padding-top: 10%;
-  margin: 0 10%;
+  background-color: #1a237e;
+  padding: 10%;
+}
+
+.cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+
+.cursor.active {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.8);
 }

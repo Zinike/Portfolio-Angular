@@ -26,6 +26,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.card:first-child {
+  background-color: var(--color-resaltado);
+  border: 2px solid var(--color-fondo);
+}
+
 .card h3 {
   font-size: 20px;
   margin-bottom: 10px;

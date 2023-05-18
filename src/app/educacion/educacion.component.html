@@ -2,12 +2,10 @@
   <div class="educaciones">
     <h2>Mi Formación</h2>
     <div class="card-container">
-      <div *ngFor="let educacion of educaciones">
-        <div class="educacion">
-          <h3>{{ educacion.titulo }} {{ educacion.fecha }}</h3>
-          <p>{{ educacion.institucion }}</p>
-          <p>{{ educacion.descripcion }}</p>
-        </div>
+      <div class="educacion" *ngFor="let educacion of educaciones">
+        <h3>{{ educacion.titulo }} {{ educacion.fecha }}</h3>
+        <p>{{ educacion.institucion }}</p>
+        <p>{{ educacion.descripcion }}</p>
       </div>
     </div>
   </div>

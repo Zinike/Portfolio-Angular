@@ -7,19 +7,19 @@ import { Component } from '@angular/core';
 })
 export class EducacionComponent {
   educaciones: any[] = [
-    {
-      titulo: "Secundario",
-      institucion: "Instituto Nuestra Madre de la Merced",
-      fecha: "2012",
-      descripcion: "Bachiller con orientacion en Ciencias Sociales"
-    },
+
     {
       titulo: "Curso",
       institucion: "Argentina Programa 2.0",
       fecha: "2022",
       descripcion: "Curso de programacion con salida de Desarrollador Web Full-Stack"
     },
-    // Agrega más objetos de educación según tus necesidades
+    {
+      titulo: "Secundario",
+      institucion: "Instituto Nuestra Madre de la Merced",
+      fecha: "2012",
+      descripcion: "Bachiller con orientacion en Ciencias Sociales"
+    }
   ];
   
 }
