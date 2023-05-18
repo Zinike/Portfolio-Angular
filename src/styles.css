@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
+:root {
+  --color-primario: #1a237e;
+  --color-secundario: #8bc34a;
+  --color-resaltado: #ff5722;
+  --color-fondo: #333333;
+  --color-texto: #ffffff;
+  --color-acento: #ffc107;
+}
+
 p,
 h1,
 h2,
